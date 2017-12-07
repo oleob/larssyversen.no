@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.container {
+  overflow: hidden;
+}
+
+.showlars {
+ transition: all 1s ease-in-out;
+ position: absolute;
+ left: 0;
+ bottom: 0;
+}
+
+.nolars {
+  position: absolute;
+  transition: all 1.2s ease-in-out;
+  left: -800px;
+  bottom:0;
+}
+
+.toggleButton {
+  z-index: 1;
+  position: absolute;
+  top:50%;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.bubbleContainer{
+  position: absolute;
+  left: 220px;
+  bottom: 260px;
+  transition: all 1s ease-in-out;
+}
+
+.hiddenBubbleContainer{
+  position: absolute;
+  left: -500px;
+  bottom: 260px;
+  transition: all 1.1s ease-in-out;
+}
+
+.bubble{
+  text-align: center;
+}
+
+.bubbleImage{
+  width: 450px;
+  position: relative;
+  float:left;
+}
+
+.bubbleText{
+  left: 0;
+  position:absolute;
+  text-align:center;
+  top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
