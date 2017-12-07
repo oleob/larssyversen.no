@@ -12,6 +12,11 @@ const sentences= [
   'I dag blir det torsk til middag',
   'Skulle ønske jeg var flinkere i CS:GO',
   'Ønsker meg en søt sau til jul',
+  'Ingen agurk',
+  '2+2=4-1=3, quick maths',
+  'Trenger vel ikke gjær for å lage boller?',
+  'Blodet mitt er 32% Jägermeister',
+  'Vann er for tapere',
 ];
 
 export default sentences;
