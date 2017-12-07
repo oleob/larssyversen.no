@@ -1,4 +1,4 @@
-#Info
+#Info#
 Frontend for larssyversen.no
 Legg gjerne til nye quotes i Quotes.js :)
 
