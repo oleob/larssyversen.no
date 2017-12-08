@@ -69,9 +69,6 @@ class Container extends Component {
       values: newValues,
       shownValues: newShownValues,
     });
-    console.log(newValues);
-    console.log(newShownValues);
-    console.log(value)
     return value;
   }
 
