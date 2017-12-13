@@ -43,7 +43,7 @@ class Container extends Component {
       this.setState({
         showLars: true,
         larsName: 'showlars',
-        buttonLabel: 'Fuck off Lars',
+        buttonLabel: 'Fak u Lars',
         bubbleName: 'bubbleContainer',
         text: sentences[this.randomValue()],
       })
