@@ -3,6 +3,7 @@ import Button from 'material-ui/RaisedButton';
 import Lars from './Lars';
 import Bubble from './Bubble';
 import sentences from '../Quotes';
+import CodeLink from './CodeLink';
 
 class Container extends Component {
 
@@ -80,6 +81,7 @@ class Container extends Component {
         </div>
         <Lars name={this.state.larsName} />
         <Bubble name={this.state.bubbleName} text={this.state.text} />
+        <CodeLink />
       </div>
     );
   }
