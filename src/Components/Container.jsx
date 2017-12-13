@@ -36,14 +36,14 @@ class Container extends Component {
         larsName: 'nolars',
         buttonLabel: 'Click me!',
         bubbleName: 'hiddenBubbleContainer',
-        text: 'Bai Bai'
+        text: 'God jul!',
       });
     }
     else{
       this.setState({
         showLars: true,
         larsName: 'showlars',
-        buttonLabel: 'Fuck off Lars',
+        buttonLabel: 'Bye Lars',
         bubbleName: 'bubbleContainer',
         text: sentences[this.randomValue()],
       })

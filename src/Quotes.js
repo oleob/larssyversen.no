@@ -20,12 +20,14 @@
 // ];
 
 const sentences = [
-  'Hurra jeg har bursdag!',
-  'Nå er jeg stor gutt',
-  'Endelig kan jeg også drikke alkohol!',
-  'bursdag er best!',
-  'Hurra!!',
-  'Skal ta meg en bursdags-blund',
+  'HOHOHO',
+  'Er det noen snille barn her?',
+  'Her kommer julenissen',
+  'De burde selge julebrus hele året',
+  'Gleder meg til julaften',
+  'Håper julenissen kommer i år',
+  'Lurer på hva jeg får til jul',
+  'Hurra det snør!',
 ];
 
 export default sentences;
