@@ -28,6 +28,7 @@ const sentences = [
   'Håper julenissen kommer i år',
   'Lurer på hva jeg får til jul',
   'Hurra det snør!',
+  'Er det jul nå, Ole?'
 ];
 
 export default sentences;
